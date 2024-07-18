@@ -1,6 +1,6 @@
 {
   "name": "@lymp/vue",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "module": "dist/vue.esm-bundler.js",
   "types": "dist/vue.d.ts",
   "files": [
@@ -17,7 +17,7 @@
     "vue": "^3.3.0"
   },
   "dependencies": {
-    "@lymp/core": "1.1.6",
+    "@lymp/core": "1.1.7",
     "@css-render/plugin-bem": "^0.15.12",
     "css-render": "^0.15.12",
     "vue": "^3.3.4"
