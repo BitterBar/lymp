@@ -142,10 +142,10 @@ importers:
   packages/lymp:
     dependencies:
       '@lymp/core':
-        specifier: 1.1.6
+        specifier: 1.1.8
         version: link:../core
       '@lymp/vue':
-        specifier: 1.1.6
+        specifier: 1.1.8
         version: link:../vue
 
   packages/vue:
@@ -154,7 +154,7 @@ importers:
         specifier: ^0.15.12
         version: registry.npmmirror.com/@css-render/plugin-bem@0.15.12(css-render@0.15.12)
       '@lymp/core':
-        specifier: 1.1.6
+        specifier: 1.1.8
         version: link:../core
       css-render:
         specifier: ^0.15.12

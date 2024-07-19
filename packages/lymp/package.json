@@ -1,6 +1,6 @@
 {
   "name": "lymp",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "module": "dist/lymp.esm-bundler.js",
   "types": "dist/lymp.d.ts",
   "files": [
@@ -13,7 +13,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@lymp/core": "1.1.7",
-    "@lymp/vue": "1.1.7"
+    "@lymp/core": "1.1.8",
+    "@lymp/vue": "1.1.8"
   }
 }

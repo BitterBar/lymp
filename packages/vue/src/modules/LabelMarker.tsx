@@ -68,9 +68,13 @@ export default defineComponent({
 
       onClean(() => {
         labelMaker.off(props.trigger, handleToggle)
+        if (props.trigger === 'mouseover')
+          labelMaker.off('mouseout', handleToggle)
         handleDestroyed()
       })
+
       labelMaker.on(props.trigger, handleToggle)
+      if (props.trigger === 'mouseover') labelMaker.on('mouseout', handleToggle)
 
       if (!overlayGroup) return
       overlayGroup.on('hide', () => content.value?.hide()) // TODO: content可能会从地图中删除！WARN
